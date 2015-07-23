@@ -1,0 +1,164 @@
+<!--{template common/header}-->
+<!--{hook/forumdisplay_top_mobile}-->
+<!-- main threadlist start -->
+<!--{if !$subforumonly}-->
+
+<div class="s_load"><span><!--{eval echo strip_tags($_G['forum']['name']) ? strip_tags($_G['forum']['name']) : $_G['forum']['name'];}--><i class="fff"></i></span>
+<span style="float: right; padding-right: 10px; padding-left: 10px;  display: block;">
+	<input class="redirect button2" type="button" value="·¢Ìû" href="forum.php?mod=post&action=newthread&fid=$_G[fid]">
+
+</span>
+</div>
+<style>
+	.btn-sub {
+		margin-top: 5px;
+		color: #fff;
+		background-color: #5cb85c;
+		border-color: #4cae4c;
+		display: inline-block;
+		padding: 2px 5px;
+		margin-bottom: 0;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 1.42857143;
+		text-align: center;
+		white-space: nowrap;
+		vertical-align: middle;
+		-ms-touch-action: manipulation;
+		touch-action: manipulation;
+		cursor: pointer;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		background-image: none;
+		border: 1px solid transparent;
+		border-radius: 4px;
+	}
+	.btn-red {
+		margin-top: 5px;
+		color: #fff;
+		background-color: #509d19;
+		border-color: #ff0000;
+		display: inline-block;
+		padding: 2px 5px;
+		margin-bottom: 0;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 1.42857143;
+		text-align: center;
+		white-space: nowrap;
+		vertical-align: middle;
+		-ms-touch-action: manipulation;
+		touch-action: manipulation;
+		cursor: pointer;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		background-image: none;
+		border: 1px solid transparent;
+		border-radius: 4px;
+	}
+	.btn-red a {
+		color: #fff;
+	}
+	.btn-sub a {
+		color: #fff;
+	}
+</style>
+<div style="padding: 0 10px;">
+	<button type="button" class="btn-red">
+		<a href="forum.php?mod=forumdisplay&fid={$_G['forum']['fid']}&"><!--{eval echo strip_tags($_G['forum']['name']) ? strip_tags($_G['forum']['name']) : $_G['forum']['name'];}--></a>
+	</button>
+	<!--{if $_G['forum']['threadtypes']}-->
+	<!--{loop $_G['forum']['threadtypes']['types'] $id $name}-->
+	<!--{if $_GET['typeid'] == $id}-->
+	<button  class="btn-sub">
+		<a href="forum.php?mod=forumdisplay&fid=$_G[fid]{if $_GET['sortid']}&filter=sortid&sortid=$_GET['sortid']{/if}{if $_GET['archiveid']}&archiveid={$_GET['archiveid']}{/if}"><!--{if $_G[forum][threadtypes][icons][$id] && $_G['forum']['threadtypes']['prefix'] == 2}--><img class="vm" src="$_G[forum][threadtypes][icons][$id]" alt="" /> <!--{/if}-->$name<!--{if $showthreadclasscount[typeid][$id]}--><!--{/if}--></a>
+	</button>
+	<!--{else}-->
+	<button  class="btn-sub">
+	<a href="forum.php?mod=forumdisplay&fid=$_G[fid]&filter=typeid&typeid=$id$forumdisplayadd[typeid]{if $_GET['archiveid']}&archiveid={$_GET['archiveid']}{/if}"><!--{if $_G[forum][threadtypes][icons][$id] && $_G['forum']['threadtypes']['prefix'] == 2}--><img class="vm" src="$_G[forum][threadtypes][icons][$id]" alt="" /> <!--{/if}-->$name<!--{if $showthreadclasscount[typeid][$id]}--><!--{/if}--></a>
+	</button>
+	<!--{/if}-->
+	<!--{/loop}-->
+	<!--{/if}-->
+</div>
+<div class="s_union" id="adArticleFoot"></div>
+<section class="s_moreread">
+	<div class="list_box list">
+		<!--{if $_G['forum_threadcount']}-->
+		<!--{loop $_G['forum_threadlist'] $key $thread}-->
+		<!--{if !$_G['setting']['mobile']['mobiledisplayorder3'] && $thread['displayorder'] > 0}-->
+		{eval continue;}
+		<!--{/if}-->
+		<!--{if $thread['displayorder'] > 0 && !$displayorder_thread}-->
+		{eval $displayorder_thread = 1;}
+		<!--{/if}-->
+		<!--{if $thread['moved']}-->
+		<!--{eval $thread[tid]=$thread[closed];}-->
+		<!--{/if}-->
+
+		<dl>
+			<!--{hook/forumdisplay_thread_mobile $key}-->
+			<a href="forum.php?mod=viewthread&tid=$thread[tid]&extra=$extra">
+				<!--{if $thread['cover']}-->
+				<dt><img src="$thread[coverpath]" alt="{$thread[subject]}"></dt>
+				<!--{/if}-->
+				<dd><h3>{$thread[subject]}</h3></dd>
+				<dd><!--{$SC_LANG[release]}-->:{$thread[dateline]}</dd>
+			</a>
+		</dl>
+		<!--{/loop}-->
+		<!--{else}-->
+		<dl>{lang forum_nothreads}</dl>
+		<!--{/if}-->
+
+		$multipage
+	</div>
+
+	<div class="s_union" id="adRightPiao"></div>
+	<div id="adButtom"></div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--{/if}-->
+<!-- main threadlist end -->
+<!--{hook/forumdisplay_bottom_mobile}-->
+<div class="pullrefresh" style="display:none;"></div>
+<!--{template common/footer}-->

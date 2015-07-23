@@ -1,0 +1,103 @@
+.s_header nav {
+    background-color: #2e82ff;
+}
+.s_header .navline {
+    border-left: 1px solid #2e82ff;
+    background: #2e82ff;
+}
+.s_header .moreclick {
+    background-color: #2e82ff;
+}
+.s_header .moreclick .navline {
+    background-color: #2e82ff;
+}
+.s_toplist-n {
+    background-color: #2e82ff;
+}
+.s_topline-n {
+    border-top: 1px solid #2e82ff;
+    border-bottom: 1px solid #2e82ff;
+}
+.up-n i {
+    background: url(../images/blue/up_slide.png) no-repeat;
+    webkit-background-size: 57px 27px;
+    -moz-background-size: 57px 27px;
+    background-size: 57px 27px;
+    display: inline-block;
+    width: 57px;
+    height: 27px;
+    position: absolute;
+    left: 50%;
+    margin-left: -29px;
+    top: 0px;
+    cursor: pointer;
+    z-index: 1;
+}
+.s_publicsearch {
+    border: 1px solid #2e82ff;
+}
+.s_publicwarp input[type="submit"] {
+    border: 1px solid #2e82ff;
+    background: #2e82ff;
+}
+.img_page .active {
+    background-color: #2e82ff;
+}
+.module .topic .live-icon {
+    color: white;
+    display: inline-block;
+    width: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 10px;
+    position: relative;
+    padding-right: 13px;
+    background: #2e82ff url(../images/blue/s_xl_sj.png) no-repeat right center;
+    -webkit-background-size: 13px 22px;
+    background-size: 13px 22px;
+}
+.page a.active {
+    color: #2e82ff;
+    border-bottom: 2px solid #2e82ff;
+    position: relative;
+}
+.s_load span {
+    color: #2e82ff;
+}
+.btn-red {
+    background-color: #2e82ff !important;
+}
+.btn-sub {
+    background-color: #2e82ff !important;
+}
+a.blue:link {
+    color: #2e82ff;
+}
+.s_moreread .ma b {
+    color: #2e82ff;
+}
+.button {
+    background: url(../images/blue/button_bg.png) no-repeat;
+}
+a.blue:link, a.blue:visited, a.blue:hover {
+    color: #2e82ff;
+}
+.button2 {
+    background: url(../images/blue/button_bg2.png) no-repeat;
+}
+.threadlist .thread_tit {
+    color: #2e82ff;
+}
+.user_avatar .name {
+    color: #2e82ff;
+}
+.user_box li span {
+    color: #2e82ff;
+}
+.btn_exit a {
+    background: url(../images/blue/exit.png) no-repeat;
+}
+.btn_login .pn, .btn_register .pn {
+    background: url(../images/blue/login.png) no-repeat;
+}

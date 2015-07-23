@@ -1,0 +1,40 @@
+<!--{subtemplate common/header_common}--> 
+<link rel="stylesheet" type="text/css" href="template/v2_mbl20121009/mplus/style.css" />
+<!--{subtemplate wap/plus}-->
+<!--{$m_sl}-->
+</head>
+<body>
+<!--{if $_G['setting']['domain']['app']['mobile']}-->
+	{eval $nav = 'http://'.$_G['setting']['domain']['app']['mobile'];}
+<!--{else}-->
+	{eval $nav = "forum.php";}
+<!--{/if}-->
+
+<div id="wrap_menu">
+<div id="mwp" class="content">
+<header>
+<a href="$nav"><img src="template/v2_mbl20121009/mplus/img/logo.png" height="45" class="logo_img" /></a>
+<div class="umus">
+<a href="forum.php"><img src="template/v2_mbl20121009/mplus/img/h_i.png" height="20" /></a>
+<!--{if $_G['uid'] || $_G['connectguest']}-->
+<a href="javascript:;" id="h_umu" class="a" onClick="dbox('h_umu','a');"><img src="template/v2_mbl20121009/mplus/img/h_u.png" height="20" /></a>
+<!--{else}-->    
+<a href="member.php?mod=logging&action=login" class="a"><img src="template/v2_mbl20121009/mplus/img/h_u.png" height="20" /></a>
+<!--{/if}-->
+</div>
+<!--{if $_G['uid']}-->
+<ul class="p_umu" id="h_umu_menu" style="display:none;"><em></em>
+    <li class="notb"><a href="home.php?mod=space&do=pm"{if $_G[member][newpm]} class="xi1"{/if}><!--{if $_G[member][newpm]}-->{lang new_pm}<!--{else}-->{lang pm_center}<!--{/if}--></a></li>
+    <li><a href="home.php?mod=space&uid={$_G[uid]}&do=thread&view=me">{lang my_posts}</a></li>
+    <li><a href="home.php?mod=space&uid={$_G[uid]}&do=favorite&view=me&type=forum">{echo m_lang('favorite')}</a></li>    
+    <li><a href="home.php?mod=space&uid={$_G['uid']}&do=profile">{echo m_lang('profile')}</a></li>
+    <li style=" border-bottom:none;"><a href="member.php?mod=logging&action=logout&formhash={FORMHASH}">{lang logout}</a></li>
+</ul>
+<!--{elseif $_G['connectguest']}-->
+<ul class="p_umu" id="h_umu_menu" style="display:none;"><em></em>
+    <li style=" border-bottom:none;"><a href="member.php?mod=logging&action=logout&formhash={FORMHASH}">{lang logout}</a></li>
+</ul>
+<!--{/if}-->
+</header>
+
+<div class="wp">

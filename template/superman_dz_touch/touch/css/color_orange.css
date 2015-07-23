@@ -1,0 +1,103 @@
+.s_header nav {
+    background-color: #ff4400;
+}
+.s_header .navline {
+    border-left: 1px solid #ff4400;
+    background: #ff4400;
+}
+.s_header .moreclick {
+    background-color: #ff4400;
+}
+.s_header .moreclick .navline {
+    background-color: #ff4400;
+}
+.s_toplist-n {
+    background-color: #ff4400;
+}
+.s_topline-n {
+    border-top: 1px solid #ff4400;
+    border-bottom: 1px solid #ff4400;
+}
+.up-n i {
+    background: url(../images/orange/up_slide.png) no-repeat;
+    webkit-background-size: 57px 27px;
+    -moz-background-size: 57px 27px;
+    background-size: 57px 27px;
+    display: inline-block;
+    width: 57px;
+    height: 27px;
+    position: absolute;
+    left: 50%;
+    margin-left: -29px;
+    top: 0px;
+    cursor: pointer;
+    z-index: 1;
+}
+.s_publicsearch {
+    border: 1px solid #ff4400;
+}
+.s_publicwarp input[type="submit"] {
+    border: 1px solid #ff4400;
+    background: #ff4400;
+}
+.img_page .active {
+    background-color: #ff4400;
+}
+.module .topic .live-icon {
+    color: white;
+    display: inline-block;
+    width: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 10px;
+    position: relative;
+    padding-right: 13px;
+    background: #ff4400 url(../images/orange/s_xl_sj.png) no-repeat right center;
+    -webkit-background-size: 13px 22px;
+    background-size: 13px 22px;
+}
+.page a.active {
+    color: #ff4400;
+    border-bottom: 2px solid #ff4400;
+    position: relative;
+}
+.s_load span {
+    color: #ff4400;
+}
+.btn-red {
+    background-color: #ff4400 !important;
+}
+.btn-sub {
+    background-color: #ff4400 !important;
+}
+a.blue:link {
+    color: #ff4400;
+}
+.s_moreread .ma b {
+    color: #ff4400;
+}
+.button {
+    background: url(../images/orange/button_bg.png) no-repeat;
+}
+a.blue:link, a.blue:visited, a.blue:hover {
+    color: #ff4400;
+}
+.button2 {
+    background: url(../images/orange/button_bg2.png) no-repeat;
+}
+.threadlist .thread_tit {
+    color: #ff4400;
+}
+.user_avatar .name {
+    color: #ff4400;
+}
+.user_box li span {
+    color: #ff4400;
+}
+.btn_exit a {
+    background: url(../images/orange/exit.png) no-repeat;
+}
+.btn_login .pn, .btn_register .pn {
+    background: url(../images/orange/login.png) no-repeat;
+}

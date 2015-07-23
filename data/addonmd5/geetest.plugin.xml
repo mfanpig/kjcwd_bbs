@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[geetest.plugin]]></item>
+	<item id="RevisionID"><![CDATA[25572]]></item>
+	<item id="SN"><![CDATA[2015051812jSSjxj3Ws1]]></item>
+	<item id="RevisionDateline"><![CDATA[1429855202]]></item>
+	<item id="Data">
+		<item id="/geetest.class.php"><![CDATA[15317ab7792fc24ef23eb6b61311e75d]]></item>
+		<item id="/about.inc.php"><![CDATA[00ae47f244380ddd992daaf5ed274ca4]]></item>
+		<item id="/plugin_class/plugin_geetest_member.class.php"><![CDATA[574c444e3eb64ec84ccdb7319a323411]]></item>
+		<item id="/plugin_class/plugin_geetest_home.class.php"><![CDATA[cd0938ecd5ae7f06231259ba254f559b]]></item>
+		<item id="/plugin_class/plugin_geetest_forum.class.php"><![CDATA[54289e99a5e0dce7e2767155c1b1ff89]]></item>
+		<item id="/geetestcloud.inc.php"><![CDATA[575a8516ec955e1097acf611ca0ae847]]></item>
+		<item id="/discuz_plugin_geetest_TC_UTF8.xml"><![CDATA[8be7fc55f92a69f0136211e7995e61bb]]></item>
+		<item id="/discuz_plugin_geetest_SC_UTF8.xml"><![CDATA[1e97ea3deb5ad46f4872fb6a24a4c968]]></item>
+		<item id="/lib/geetestlib.php"><![CDATA[d343f17e7f7ccd5c4ea044a3bcec962c]]></item>
+		<item id="/lib/config.php"><![CDATA[764c67e983f8fad138f5f80f59785104]]></item>
+		<item id="/feedback.inc.php"><![CDATA[f951b819abcfc61fbddba01ca535fd8e]]></item>
+		<item id="/upgrade.php"><![CDATA[c275e3e196f9c156b5ae9f53b02b1299]]></item>
+		<item id="/discuz_plugin_geetest_TC_BIG5.xml"><![CDATA[1077826153ab827aecb3d7af18e076f8]]></item>
+		<item id="/discuz_plugin_geetest_SC_GBK.xml"><![CDATA[1a3a3fb9a85f25074679b0d8d7169a7a]]></item>
+		<item id="/geetest_mobile.class.php"><![CDATA[13dbcfb6b49406082a6bc89bdd91b453]]></item>
+		<item id="/js/mobile_keyset.js"><![CDATA[d372d8dc8c41bf6b0b9df1e9c71454de]]></item>
+		<item id="/js/geetest_mobile.js"><![CDATA[2d2b0e8b8486fcc1730f47e8cb02bcbd]]></item>
+		<item id="/js/web_keyset.js"><![CDATA[de13f0ee527f037b9d42de976e59b1cb]]></item>
+		<item id="/advance.inc.php"><![CDATA[483440373c2d9d99518cd3bbb408a862]]></item>
+		<item id="/install.php"><![CDATA[4713c310810b36e1edd67ca234ca7aca]]></item>
+	</item>
+</root>

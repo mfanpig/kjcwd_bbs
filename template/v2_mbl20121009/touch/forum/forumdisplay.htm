@@ -1,0 +1,71 @@
+<!--{subtemplate common/header}-->
+<!--{hook/forumdisplay_top_mobile}-->
+
+<div class="ct">
+  <div class="pt"> 
+    <!--{if $_G['forum']['type'] == 'forum'}--> 
+    <!--{if $ctstyle == 1}--> 
+    <a href="forum.php?mod=forum">{echo m_lang('forum')}</a> 
+    <!--{else}--> 
+    <a href="forum.php">{echo m_lang('home')}</a> 
+    <!--{/if}--> 
+    <em> &gt; </em> <a href="forum.php?mod=forumdisplay&fid={$_G['forum']['fid']}">{echo cutstr(strip_tags($_G['forum']['name']),20)}</a> 
+    <!--{else}--> 
+    <!--{if $ctstyle == 1}--> 
+    <a href="forum.php?mod=forum">{echo m_lang('forum')}</a> 
+    <!--{else}--> 
+    <a href="forum.php">{echo m_lang('home')}</a> 
+    <!--{/if}--> 
+    <em> &gt; </em> <a href="forum.php?mod=forumdisplay&fid={$forum_up['fid']}">{echo cutstr(strip_tags($forum_up['name']),6)}</a> <em> &gt; </em> {echo cutstr(strip_tags($_G['forum']['name']),16)} 
+    <!--{/if}--> 
+  </div>
+  <div class="nmt"> <a href="{if $_G['group']['allowpost']}forum.php?mod=post&action=newthread&fid=$_G[fid]{else}{if $_G['uid']}forum.php?mod=post&action=newthread&fid=$_G[fid]{else}member.php?mod=logging&action=login{/if}{/if}" class="z f_pst" >{lang send_threads}</a> <a href="home.php?mod=spacecp&ac=favorite&type=forum&id={$_G[fid]}" >{lang favorite}</a> </div>
+  
+  <!--{if $subexists}-->
+  <div class="catlist clnb">
+    <ul>
+      <!--{loop $sublist $sub}-->
+      <li> 
+        <!--{if $sub[icon]}--> 
+        $sub[icon] 
+        <!--{else}--> 
+        <a href="forum.php?mod=forumdisplay&fid={$sub[fid]}"><img src="template/v2_mbl20121009/mplus/img/forum{if $sub[folder]}_new{/if}.png" alt="$sub[name]" /></a> 
+        <!--{/if}--> 
+        <a href="forum.php?mod=forumdisplay&fid={$sub[fid]}" class="a">
+        <p class="f_nm">{$sub['name']}</p>
+        <!--{if $sub[description]}-->
+        <p class="xg1 f_dp">{echo cutstr(strip_tags($sub[description]),30)}</p>
+        <!--{/if}--> 
+        <!--{if $sub[todayposts]}--><span>$sub[todayposts]</span><!--{/if}--> 
+        </a> </li>
+      <!--{/loop}-->
+    </ul>
+  </div>
+  <!--{/if}--> 
+  
+  <!--//forumdisplay_list template start--> 
+  <!--{if !$subforumonly}-->
+  
+  <ul class="thlist">
+    
+    <!--{if $_G['forum_threadcount']}--> 
+    <!--{loop $_G['forum_threadlist'] $key $thread}-->
+    <li> <a href="forum.php?mod=viewthread&tid=$thread[tid]">
+      <h1>{$thread[subject]} </h1>
+      <p> 
+        <!--{if $thread['authorid'] && $thread['author']}--> 
+        {$thread[author]}<!--{else}--><!--{if $_G['forum']['ismoderator']}-->{lang anonymous}<!--{else}-->{$_G[setting][anonymoustext]}<!--{/if}--><!--{/if}--><span class="pipe">-</span>{$thread[dateline]}<span class="y"><span class="xi2"><!--{if $thread[replies] > 0}-->{$thread[replies]}<!--{else}-->0<!--{/if}--></span> / <!--{if $thread[views] > 0}-->{$thread[views]}<!--{/if}--></span> </p>
+      </a> </li>
+    <!--{/loop}--> 
+    <!--{else}-->
+    <li class="wmt">{lang forum_nothreads}</li>
+    <!--{/if}-->
+  </ul>
+  <div class="pgbox">$multipage</div>
+  
+  <!--{/if}--> 
+  
+  <!--//forumdisplay_list template end--> 
+</div>
+<!--{hook/forumdisplay_bottom_mobile}--> 
+<!--{subtemplate common/footer}-->

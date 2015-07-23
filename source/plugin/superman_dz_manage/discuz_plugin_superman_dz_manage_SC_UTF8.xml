@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Version"><![CDATA[X3.2]]></item>
+	<item id="Time"><![CDATA[2015-05-23 11:34:13]]></item>
+	<item id="From"><![CDATA[时创科技]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[0]]></item>
+			<item id="adminid"><![CDATA[0]]></item>
+			<item id="name"><![CDATA[dz_手机管理]]></item>
+			<item id="identifier"><![CDATA[superman_dz_manage]]></item>
+			<item id="description"><![CDATA[]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[superman_dz_manage/]]></item>
+			<item id="copyright"><![CDATA[时创科技]]></item>
+			<item id="version"><![CDATA[2.0]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[superman_dz_manage]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[11]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="100">
+					<item id="name"><![CDATA[about]]></item>
+					<item id="menu"><![CDATA[关于我们]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[100]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="101">
+					<item id="name"><![CDATA[contact]]></item>
+					<item id="menu"><![CDATA[联系我们]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[101]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="102">
+					<item id="name"><![CDATA[recommend]]></item>
+					<item id="menu"><![CDATA[<span style="color:#f60;font-weight:bold;">推荐插件</span>]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[102]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="version"><![CDATA[X2.5,X3,X3.1,X3.2]]></item>
+		<item id="var">
+			<item id="0">
+				<item id="displayorder"><![CDATA[0]]></item>
+				<item id="title"><![CDATA[风格设置]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[style]]></item>
+				<item id="type"><![CDATA[select]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[1=风格一：红色风格
+2=风格二：黑色风格
+3=风格三：绿色风格
+4=风格四：蓝色风格
+5=风格五：橙色风格]]></item>
+			</item>
+			<item id="1">
+				<item id="displayorder"><![CDATA[1]]></item>
+				<item id="title"><![CDATA[自定义导航]]></item>
+				<item id="description"><![CDATA[将自定义导航外部调用生成的代码粘贴至此处，教程地址：http://discuz.aixiyou.com/thread-1253-1-1.html]]></item>
+				<item id="variable"><![CDATA[customnav]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="2">
+				<item id="displayorder"><![CDATA[2]]></item>
+				<item id="title"><![CDATA[轮播]]></item>
+				<item id="description"><![CDATA[将轮播外部调用生成的代码粘贴至此处，教程地址：http://discuz.aixiyou.com/thread-1253-1-1.html]]></item>
+				<item id="variable"><![CDATA[carousel]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="3">
+				<item id="displayorder"><![CDATA[3]]></item>
+				<item id="title"><![CDATA[最新帖]]></item>
+				<item id="description"><![CDATA[将最新帖外部调用生成的代码粘贴至此处，教程地址：http://discuz.aixiyou.com/thread-1253-1-1.html]]></item>
+				<item id="variable"><![CDATA[newestpost]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="4">
+				<item id="displayorder"><![CDATA[4]]></item>
+				<item id="title"><![CDATA[精华帖]]></item>
+				<item id="description"><![CDATA[将精华帖外部调用生成的代码粘贴至此处，教程地址：http://discuz.aixiyou.com/thread-1253-1-1.html]]></item>
+				<item id="variable"><![CDATA[essencepost]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="5">
+				<item id="displayorder"><![CDATA[5]]></item>
+				<item id="title"><![CDATA[热门贴]]></item>
+				<item id="description"><![CDATA[将热门贴外部调用生成的代码粘贴至此处，教程地址：http://discuz.aixiyou.com/thread-1253-1-1.html]]></item>
+				<item id="variable"><![CDATA[hotpost]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="6">
+				<item id="displayorder"><![CDATA[6]]></item>
+				<item id="title"><![CDATA[论坛板块]]></item>
+				<item id="description"><![CDATA[将论坛板块外部调用生成的代码粘贴至此处，教程地址：http://discuz.aixiyou.com/thread-1253-1-1.html]]></item>
+				<item id="variable"><![CDATA[bbsplate]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="7">
+				<item id="displayorder"><![CDATA[7]]></item>
+				<item id="title"><![CDATA[门户首页广告]]></item>
+				<item id="description"><![CDATA[将门户首页广告模块外部调用生成的代码粘贴至此处，教程地址：http://discuz.aixiyou.com/thread-1253-1-1.html]]></item>
+				<item id="variable"><![CDATA[indexadd]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="8">
+				<item id="displayorder"><![CDATA[8]]></item>
+				<item id="title"><![CDATA[热文推荐]]></item>
+				<item id="description"><![CDATA[将热文推荐模块外部调用生成的代码粘贴至此处，教程地址：http://discuz.aixiyou.com/thread-1253-1-1.html]]></item>
+				<item id="variable"><![CDATA[hotrecommend]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="9">
+				<item id="displayorder"><![CDATA[9]]></item>
+				<item id="title"><![CDATA[热图]]></item>
+				<item id="description"><![CDATA[将热图模块外部调用生成的代码粘贴至此处，教程地址：http://discuz.aixiyou.com/thread-1253-1-1.html]]></item>
+				<item id="variable"><![CDATA[hotimg]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+		</item>
+		<item id="language">
+			<item id="installlang">
+			</item>
+			<item id="scriptlang">
+				<item id="param_setting"><![CDATA[参数设置]]></item>
+				<item id="btn_save"><![CDATA[保存]]></item>
+				<item id="save_succeed"><![CDATA[保存成功]]></item>
+			</item>
+			<item id="templatelang">
+				<item id="about"><![CDATA[关于我们]]></item>
+				<item id="about_content"><![CDATA[时创科技联合创始人 veking：<br />
+时创科技由几名做过站长的技术大拿与产品达人共同成立，专为站长们开发、定制各种应用。因为做过站长，所以了解站长需求；因为运营过网站，所以知道网站缺乏什么。我们希望能和Discuz! 一起成长，也希望能像Discuz! 一样做一名送水人，在站长的成功路上，能使用我们的插件来辅助网站运营，解决技术难题。最后请大家多多支持我们，赶紧来安装插件吧！<br />
+<br />
+<strong>官方网站</strong><br/>
+<a href="http://discuz.aixiyou.com" target="_blank">http://discuz.aixiyou.com</a><br/>
+<strong>技术支持</strong><br/>
+售后QQ群：<a href="http://wp.qq.com/wpa/qunwpa?idkey=4d3c26c25ac0b9514ef6fc071f629ab2c2292d8a413763b05abccc12f7c5a7ef" target="_blank">237340776</a>&nbsp;&nbsp;&nbsp;&nbsp;客服QQ：<a href="http://wpa.qq.com/msgrd?v=3&uin=924513527&site=qq&menu=yes" target="_blank">924513527</a>&nbsp;&nbsp;<a href="http://wpa.qq.com/msgrd?v=3&uin=2032830296&site=qq&menu=yes" target="_blank">2032830296</a>]]></item>
+				<item id="contact"><![CDATA[联系我们]]></item>
+				<item id="contact_content"><![CDATA[<strong>官方网站</strong><br/>
+<a href="http://discuz.aixiyou.com" target="_blank">http://discuz.aixiyou.com</a><br/>
+<strong>技术支持</strong><br/>
+售后QQ群：<a href="http://wp.qq.com/wpa/qunwpa?idkey=4d3c26c25ac0b9514ef6fc071f629ab2c2292d8a413763b05abccc12f7c5a7ef" target="_blank">237340776</a>&nbsp;&nbsp;&nbsp;&nbsp;客服QQ：<a href="http://wpa.qq.com/msgrd?v=3&uin=924513527&site=qq&menu=yes" target="_blank">924513527</a>&nbsp;&nbsp;<a href="http://wpa.qq.com/msgrd?v=3&uin=2032830296&site=qq&menu=yes" target="_blank">2032830296</a>]]></item>
+				<item id="example"><![CDATA[例子]]></item>
+			</item>
+		</item>
+		<item id="installfile"><![CDATA[install.php]]></item>
+		<item id="uninstallfile"><![CDATA[uninstall.php]]></item>
+		<item id="license"><![CDATA[[b]请您仔细阅读以下授权协议：[/b]
+[list]      
+[*]1、本插件版权归属时创科技所有；
+[*]2、未经时创科技许可，任何人不得以任何形式在任何地方发布、修改、转售、赠送等行为；
+[*]3、插件安装中，会进行正版检测，请从Discuz！应用中心安装购买；
+[*]4、对非Discuz！应用中心安装的应用，不提供任何技术支持；
+[*]6、插件开发基于Discuz！官方标准程序，如您使用非标准程序或模板，请先确认是否符合Discuz！官方标准；
+[*]7、对Discuz！版本升级导致插件不兼容情况，我们会尽快发布更新版本，请您一定耐心等待；
+[*]8、安装本插件，即视为同意以上协议！
+[/list]
+            
+[b]官方网站[/b]
+[url]http://discuz.aixiyou.com[/url]
+[b]技术支持[/b]
+QQ群：[url=http://wp.qq.com/wpa/qunwpa?idkey=4d3c26c25ac0b9514ef6fc071f629ab2c2292d8a413763b05abccc12f7c5a7ef]237340776[/url]      客服QQ：[url=http://wpa.qq.com/msgrd?v=3&uin=924513527&site=qq&menu=yes]924513527[/url]  [url=http://wpa.qq.com/msgrd?v=3&uin=2032830296&site=qq&menu=yes]2032830296[/url]]]></item>
+	</item>
+</root>

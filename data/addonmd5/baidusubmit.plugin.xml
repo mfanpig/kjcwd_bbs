@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[baidusubmit.plugin]]></item>
+	<item id="RevisionID"><![CDATA[25533]]></item>
+	<item id="SN"><![CDATA[20150521189ezf977LaH]]></item>
+	<item id="RevisionDateline"><![CDATA[1428112812]]></item>
+	<item id="Data">
+		<item id="/sitemapinc.inc.php"><![CDATA[32beb7b2d76d2be2c054d80f02368c98]]></item>
+		<item id="/uninstall.php"><![CDATA[08e48391e9a9f7a5717e0836b4984d9f]]></item>
+		<item id="/baiducse_middle.inc.php"><![CDATA[b74f4adef8e5fc02054fb9c993f23288]]></item>
+		<item id="/baidusubmit.class.php"><![CDATA[20106a74888a12caf04ac66fc46175e1]]></item>
+		<item id="/class_schema.php"><![CDATA[ec014db1b15031308f0ca27737e575d9]]></item>
+		<item id="/submitlog.inc.php"><![CDATA[cc36af80d3bdeb132ec444a369c0f980]]></item>
+		<item id="/indexuserall.inc.php"><![CDATA[224748e674e3541d67c60ceca49cd5aa]]></item>
+		<item id="/index.htm"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+		<item id="/config.php"><![CDATA[ba3381994ad8dbd591a343a091fe0765]]></item>
+		<item id="/admin.inc.php"><![CDATA[52c1c18d7e6e9097d6071e211b9984e2]]></item>
+		<item id="/discuz_plugin_baidusubmit_SC_GBK.xml"><![CDATA[8a32733ff5a63dbb948d3a8831dcf31a]]></item>
+		<item id="/function/index.htm"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+		<item id="/function/function_baidu.php"><![CDATA[fb28c5faa55c3e4446142b2c0665fd9f]]></item>
+		<item id="/sitemapuserinc.inc.php"><![CDATA[f161e9fab14339227ae454099043306a]]></item>
+		<item id="/upgrade.php"><![CDATA[8bcbca07922b71ed0a6f9158142fbb20]]></item>
+		<item id="/checksign.inc.php"><![CDATA[fc50ce3aa79a926952b1f390859c0272]]></item>
+		<item id="/indexuserinc.inc.php"><![CDATA[e4d68f78fd5b3eb6925e8985a0ea0c96]]></item>
+		<item id="/downlog.inc.php"><![CDATA[118374bec1c943836772e7bf76d9eb4d]]></item>
+		<item id="/indexinc.inc.php"><![CDATA[34c2538f24b9450eac0288dcf804278c]]></item>
+		<item id="/auth.inc.php"><![CDATA[90dcd3af85a1858d456915a2a4e4ee2a]]></item>
+		<item id="/discuz_plugin_baidusubmit_SC_UTF8.xml"><![CDATA[93fb4e1caeb7ce7b3832d16958f6989a]]></item>
+		<item id="/sitemapuserall.inc.php"><![CDATA[29b668eed490f605d9ac3c3f3adef7de]]></item>
+		<item id="/sitemapall.inc.php"><![CDATA[15667597921edca48addcf0bd2b6a556]]></item>
+		<item id="/sitemapblock.inc.php"><![CDATA[c113bd31f8fdec859bc66f0f20b21ba2]]></item>
+		<item id="/indexall.inc.php"><![CDATA[63df4a403e0ad127b26381ec68961d34]]></item>
+		<item id="/template/notice.jpg"><![CDATA[b0d1769cc77a64d0baefc7429cc236c5]]></item>
+		<item id="/template/bl_notice.jpg"><![CDATA[fa50e0983a95c37b64e7080f4907878d]]></item>
+		<item id="/template/index.htm"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+		<item id="/template/admin.htm"><![CDATA[924d2f67b39614e105bd5614214014a5]]></item>
+		<item id="/template/right.png"><![CDATA[28f7c07fe2ffc2a45a62518b5edf1066]]></item>
+		<item id="/template/jquery-1.8.3.min.js"><![CDATA[3576a6e73c9dccdbbc4a2cf8ff544ad7]]></item>
+		<item id="/template/middle.htm"><![CDATA[f119304d8d299e89fe5ff38dc6f42a80]]></item>
+		<item id="/template/submitlog.htm"><![CDATA[4274916548a45ca0f738dfe30099181a]]></item>
+		<item id="/table/table_baidusubmit_sitemap.php"><![CDATA[f6bb7d8218d59a740122bcec9ded2c71]]></item>
+		<item id="/table/table_forum_thread_baidu.php"><![CDATA[e4f63f2be6ead91ede002d3e6d6a82dc]]></item>
+		<item id="/table/index.htm"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+		<item id="/table/table_baidusubmit_urlstat.php"><![CDATA[7d7160b4e6399c0d78e920a6622decd4]]></item>
+		<item id="/table/table_common_member_status_baidu.php"><![CDATA[6178e11dabc0eb1fb9d336fe694ee42b]]></item>
+		<item id="/table/table_common_usergroup_baidu.php"><![CDATA[58df0eedd2c108dad7d754640d9e32fe]]></item>
+		<item id="/table/table_baidusubmit_setting.php"><![CDATA[8f8e2201d48c687006d9dcdea685a584]]></item>
+		<item id="/baiducse.inc.php"><![CDATA[eb8075b5632434032e237c05b7fcd074]]></item>
+		<item id="/install.php"><![CDATA[6043ba71c8ae28c449fae6381ad343f6]]></item>
+	</item>
+</root>

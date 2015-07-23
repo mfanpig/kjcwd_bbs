@@ -1,0 +1,103 @@
+.s_header nav {
+    background-color: #373737;
+}
+.s_header .navline {
+    border-left: 1px solid #373737;
+    background: #373737;
+}
+.s_header .moreclick {
+    background-color: #373737;
+}
+.s_header .moreclick .navline {
+    background-color: #373737;
+}
+.s_toplist-n {
+    background-color: #373737;
+}
+.s_topline-n {
+    border-top: 1px solid #373737;
+    border-bottom: 1px solid #373737;
+}
+.up-n i {
+    background: url(../images/black/up_slide.png) no-repeat;
+    webkit-background-size: 57px 27px;
+    -moz-background-size: 57px 27px;
+    background-size: 57px 27px;
+    display: inline-block;
+    width: 57px;
+    height: 27px;
+    position: absolute;
+    left: 50%;
+    margin-left: -29px;
+    top: 0px;
+    cursor: pointer;
+    z-index: 1;
+}
+.s_publicsearch {
+    border: 1px solid #373737;
+}
+.s_publicwarp input[type="submit"] {
+    border: 1px solid #373737;
+    background: #373737;
+}
+.img_page .active {
+    background-color: #373737;
+}
+.module .topic .live-icon {
+    color: white;
+    display: inline-block;
+    width: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 10px;
+    position: relative;
+    padding-right: 13px;
+    background: #373737 url(../images/black/s_xl_sj.png) no-repeat right center;
+    -webkit-background-size: 13px 22px;
+    background-size: 13px 22px;
+}
+.page a.active {
+    color: #373737;
+    border-bottom: 2px solid #373737;
+    position: relative;
+}
+.s_load span {
+    color: #373737;
+}
+.btn-red {
+    background-color: #373737 !important;
+}
+.btn-sub {
+    background-color: #373737 !important;
+}
+a.blue:link {
+    color: #373737;
+}
+.s_moreread .ma b {
+    color: #373737;
+}
+.button {
+    background: url(../images/black/button_bg.png) no-repeat;
+}
+a.blue:link, a.blue:visited, a.blue:hover {
+    color: #373737;
+}
+.button2 {
+    background: url(../images/black/button_bg2.png) no-repeat;
+}
+.threadlist .thread_tit {
+    color: #373737;
+}
+.user_avatar .name {
+    color: #373737;
+}
+.user_box li span {
+    color: #373737;
+}
+.btn_exit a {
+    background: url(../images/black/exit.png) no-repeat;
+}
+.btn_login .pn, .btn_register .pn {
+    background: url(../images/black/login.png) no-repeat;
+}

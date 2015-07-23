@@ -1,0 +1,6 @@
+{subtemplate common/header}
+
+
+<center><iframe frameborder="0" scrolling="no" width="100%" height="650" src="http://bbs.wmzz.cn/editor/php/demo.php"></iframe></center>
+
+{subtemplate common/footer}

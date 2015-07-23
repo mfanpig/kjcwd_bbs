@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[superman_dz_manage.plugin]]></item>
+	<item id="RevisionID"><![CDATA[50469]]></item>
+	<item id="SN"><![CDATA[20150526219PI1i05y0s]]></item>
+	<item id="RevisionDateline"><![CDATA[1432357212]]></item>
+	<item id="Data">
+		<item id="/about.inc.php"><![CDATA[e6895155c0a30e63686b3e5bc6b0355c]]></item>
+		<item id="/uninstall.php"><![CDATA[0a85a889b892fd68a23bb9a187d602a8]]></item>
+		<item id="/static/index.htm"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+		<item id="/discuz_plugin_superman_dz_manage_SC_UTF8.xml"><![CDATA[688fcd59b0a5cfb9ad73bf294fed5b45]]></item>
+		<item id="/superman_dz_manage.class.php"><![CDATA[1e5ee92777c42c780af8a0f5aa21963d]]></item>
+		<item id="/discuz_plugin_superman_dz_manage_SC_GBK.xml"><![CDATA[079044c671c8a3c70c03efd075219fe2]]></item>
+		<item id="/contact.inc.php"><![CDATA[14ade6f445176f58ec3435a8c61340d6]]></item>
+		<item id="/template/about.htm"><![CDATA[25b74cb828db17313b3a7e258ad16b7c]]></item>
+		<item id="/template/index.htm"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+		<item id="/template/contact.htm"><![CDATA[bcc5e6a958a121830ef5c8b3c207e30f]]></item>
+		<item id="/install.php"><![CDATA[0a85a889b892fd68a23bb9a187d602a8]]></item>
+		<item id="/recommend.inc.php"><![CDATA[5942ca1bf0e4438a081daee6f9d0dfd8]]></item>
+	</item>
+</root>

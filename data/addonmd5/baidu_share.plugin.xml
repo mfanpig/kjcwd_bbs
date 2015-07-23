@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[baidu_share.plugin]]></item>
+	<item id="RevisionID"><![CDATA[19269]]></item>
+	<item id="SN"><![CDATA[2015042714GvUU90q0rs]]></item>
+	<item id="RevisionDateline"><![CDATA[1373608801]]></item>
+	<item id="Data">
+		<item id="/baidu_share.class.php"><![CDATA[db02d1bf47e328716d79adce7be62b8f]]></item>
+		<item id="/discuz_plugin_baidu_share_SC_UTF8.xml"><![CDATA[a641f6aa608536408c9469896b64104a]]></item>
+		<item id="/discuz_plugin_baidu_share_SC_GBK.xml"><![CDATA[4f0d9d0038dde8fabd8c90ea03ce7e11]]></item>
+	</item>
+</root>

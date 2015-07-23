@@ -1,0 +1,88 @@
+@charset "utf-8";
+/*模板版权：迪恩网络有限公司*/
+/*QQ:1589787930*/
+
+/*----------头部样式-------------*/
+
+/*common*/
+body{ background:#F2F2F2; font-family:microsoft yahei;}
+.deanw1040,.deanwp{ width:1040px; margin:0 auto;}
+.clear{ clear:both;}
+.top15{ margin-top:15px!important;}
+.top25{ margin-top:25px!important;}
+.deanw714{ width:714px;}
+.deanborder{ border:1px solid #E6E6E6!important;}
+
+.deanfff{ background:#fff!important;}
+.deanwp,.wp{ width:1040px; margin:0 auto;}
+
+/*head*/
+#toptb{ height:31px; width:100%; background:#DBE2E8;  border-bottom:1px solid #EDEDED; padding:5px 0;}
+	#toptb .z a{ color:#60717e;}
+#deanheader{ height:60px; line-height:60px;  padding:20px 0; width:100%;}
+/*logo*/
+.deanlogo{ float:left; width:200px;}
+/*导航*/
+.deannav{ width:550px; height:60px; overflow:hidden; float:left;}
+	.deannav ul{ }
+		.deannav ul li{ float:left; height:60px; text-align:center; }
+			.deannav ul li a{ display:block; margin-top:8px; height:25px; line-height:25px; float:left; padding:0 15px; font-size:16px; color:#333;}
+			.deannav ul li a:hover{ text-decoration:none; color:#428bca; }
+			.deannav ul li.a a{ color:#428bca;}
+			.deannav ul li a span{ color:#999; font-size:12px; display:block; clear:both;}
+
+/*搜索*/
+#scbar{ height: 30px; line-height: 30px; background: #fff; margin: -1px 15px 0 0; float: left; overflow: visible; border-radius: 20px; border: 1px solid #c8d1db; border-top: 1px solid #b8c5d1;}
+	#scbar_btn{ display:block; width: 35px; height:30px; margin: 0; background:url({STYLEIMGDIR}/searchbutton.png) no-repeat 5px 9px; border: none; text-indent: -9999px; cursor: pointer;}
+	#scbar_txt{ border: none; background: #fff; width: 150px; padding: 0 5px; margin-left:10px; font-size: 14px; text-indent: 10px;}
+
+/*登录信息*/
+	.deanloginin{ color:#38485a; float:right;}
+		.deanavartop{ float:left; width:35px; height:60px; overflow:hidden;}
+			.deanavartop img{ width:30px; height:30px; border-radius:30px; margin-top:15px; transition:All 0.4s ease-in-out; -webkit-transition:All 0.4s ease-in-out; -moz-transition:All 0.4s ease-in-out; -o-transition:All 0.4s ease-in-out;}
+			.deanavartop a:hover img{ transform:rotate(360deg); -webkit-transform:rotate(360deg); -moz-transform:rotate(360deg); -o-transform:rotate(360deg); -ms-transform:rotate(360deg);}
+		.deanusername{ float:left; height:60px; line-height:60px; padding:0 5px;}
+			.deanusername .vwmy,.vwmyqq{ background:none; padding-left:0;}
+				.deanusername a{ color:#60717e; font-size:14px;}
+		.deantxs{ float:left; height:60px; line-height:60px; position:relative;}
+			.deantxs a{font-size:14px; color:#38485a;}
+			#myprompt.new{ background:none;}
+		.deaninfo{ float:left; position:relative; z-index:8; margin-left:5px;}
+			.deanhove{ width:40px; height:60px; background:url({STYLEIMGDIR}/seticon.png) center center no-repeat; cursor:pointer;}
+			.deanhoved{ background:#FFFBEA url({STYLEIMGDIR}/seticon.png) center center no-repeat; }
+			.deanmessage{ background:#FFFBEA; padding:10px; padding-top:0; position:absolute; top:60px; left:0; z-index:9; display:none;  opacity:0.95; filter:alpha(opacity=95;)}
+				.deanhoved{}
+				.deanmessage ul{ width:100px;}
+					.deanmessage ul li{ height:26px; line-height:26px; display:block; border-bottom:1px solid #F4EDD9;}
+						.deanmessage ul li a{ font-size:14px; color:#60717e; text-decoration:none;}
+						.deanlogin .pipe{ display:none;} 
+						.deanlogin ul li a{ padding:0;}
+								
+				.deanexit{ float:left; width:20px; height:60px; margin-left:5px; overflow:hidden; }
+					.deanexit a{ display:block; width:20px; height:60px; background:url({STYLEIMGDIR}/exit.png) center center no-repeat; cursor:pointer;}
+					
+	.deanunlogin{ float:right; padding-top:15px;}
+		.deanunlogin li{ float:left; margin-left:10px;}
+			.deanqqlogin a{ width:29px; height:30px; display:block; background:url({STYLEIMGDIR}/qqhover.png) 0 0 no-repeat;}
+			.deanqqlogin a:hover{  background:url({STYLEIMGDIR}/qq.png) 0 0 no-repeat;}
+	.deanlogin a{ color: #51aded; line-height: 28px; padding-left: 15px; padding-right: 15px; display:block; border-radius:3px; border: 1px solid #51aded; font-size:14px; font-family:microsoft yahei; }
+	.deanregister a{ color: #f60; line-height: 28px; padding-left: 15px; padding-right: 15px; display:block; border-radius: 3px; border: 1px solid #f60; font-size:14px; font-family:microsoft yahei; }
+	.deanlogin a:hover{ background:#4ebaf2; color:#fff; text-decoration:none; }
+	.deanregister a:hover{ background:#f90; color:#fff; text-decoration:none;}
+
+
+
+/*logo*/
+#hd h2{ padding-top:10px;}
+
+/*ft*/
+/*网站底部*/
+.deanfooter{ padding-top:30px; width:1040px; padding-bottom:30px; margin:0 auto; margin-top:30px;  border-top:1px solid #ddd;}
+.deanft{ text-align:center; font-size:14px;}
+	.deanft a{ color:#60717e;}
+	.deanft span{ color:#666; font-size:12px; padding:0 10px;}
+.deanftinfo{ text-align:center; font-size:12px; padding-top:15px; color:#333;}
+	.deanftinfo a{ color:#333;}
+
+/*home页面*/
+.ct3_a{ background:#fff; border:1px solid #e6e6e6;}

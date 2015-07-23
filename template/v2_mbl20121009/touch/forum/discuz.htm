@@ -1,0 +1,27 @@
+<!--{subtemplate common/header}-->
+
+<!--{loop $catlist $key $cat}-->
+     <div class="catlist">	
+    	<h1><a href="forum.php?gid=$cat[fid]&mod=forum">$cat[name]</a></h1>
+            <ul>            
+            <!--{loop $cat[forums] $forumid}-->
+                <li>              
+                    <!--{eval $forum=$forumlist[$forumid];}-->
+                    <!--{if $forum[icon]}-->
+					$forum[icon]
+					<!--{else}-->
+					<a href="forum.php?mod=forumdisplay&fid={$forum['fid']}"><img src="template/v2_mbl20121009/mplus/img/forum{if $forum[folder]}_new{/if}.png"/></a>
+					<!--{/if}-->                    
+                    <a href="forum.php?mod=forumdisplay&fid={$forum['fid']}" class="a">
+                    <p class="f_nm">{$forum[name]}</p>
+                    <!--{if $forum[description]}--><p class="xg1 f_dp">{echo cutstr(strip_tags($forum[description]),30)}</p><!--{/if}-->
+                    <!--{if $forum[todayposts]}--><span>$forum[todayposts]</span><!--{/if}-->
+                    </a>
+                </li>
+            <!--{/loop}-->
+            </ul>              
+            </div>  
+<!--{/loop}-->
+
+<!--{hook/index_bottom_mobile}-->
+<!--{subtemplate common/footer}-->

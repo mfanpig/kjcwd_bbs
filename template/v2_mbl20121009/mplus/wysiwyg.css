@@ -1,0 +1,5 @@
+
+* { margin: 0; padding: 0; word-wrap: break-word; }
+html, body { border: 0 !important; }
+body { background: none; padding-top:6px; overflow:hidden; }
+img { max-height:70px; margin:5px; }
